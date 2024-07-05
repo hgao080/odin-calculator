@@ -1,0 +1,60 @@
+.calculator {
+  display: flex;
+  margin: auto;
+  width: 480px;
+  height: 600px;
+  border-style: solid;
+  border-radius: 2px;
+  flex-direction: column;
+}
+
+.screen {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 40px;
+  width: 80%;
+  height: 25%;
+  margin: 20px auto;
+  border-style: solid;
+  border-radius: 2px;
+}
+
+.buttons {
+  display: flex;
+  margin: 20px auto;
+  width: 80%;
+  height: 50%;
+  border-style: solid;
+  border-radius: 2px;
+}
+
+.numbers {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 70%;
+}
+
+.numbers > button {
+  width: 33%;
+}
+
+.operations {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 30%;
+}
+
+.operations > button {
+  flex: 1 1 auto;
+}
+
+.equals {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  height: 40px;
+}
